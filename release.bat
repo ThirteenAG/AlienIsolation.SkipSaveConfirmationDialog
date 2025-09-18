@@ -1,5 +1,5 @@
 type nul >"bin\place both files in Alien Isolation folder"
-7za a -tzip ".\bin\AlienIsolation.SkipSaveConfirmationDialog.zip" ".\bin\winmm.dll" ".\bin\Release\AlienIsolation.SkipSaveConfirmationDialog.asi" ".\bin\place both files in Alien Isolation folder"
+7za a -tzip ".\bin\AlienIsolation.SkipSaveConfirmationDialog.zip" ".\bin\xinput1_3.dll" ".\bin\Release\AlienIsolation.SkipSaveConfirmationDialog.asi" ".\bin\place both files in Alien Isolation folder"
 EXIT
 
 7-Zip Extra
