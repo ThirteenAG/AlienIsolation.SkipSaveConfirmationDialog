@@ -29,7 +29,7 @@ before_package:
 
     7z e c:\Ultimate-ASI-Loader.zip -oc:\Projects\$env:APPVEYOR_PROJECT_SLUG\bin\
 
-    ren c:\Projects\$env:APPVEYOR_PROJECT_SLUG\bin\dinput8.dll winmm.dll
+    ren c:\Projects\$env:APPVEYOR_PROJECT_SLUG\bin\dinput8.dll xinput1_3.dll
 after_build:
 - cmd: release.bat
 artifacts:
